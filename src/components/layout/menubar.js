@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 
 class MenuBar extends Component {
     render() {
@@ -12,10 +13,10 @@ class MenuBar extends Component {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item" style={{ marginLeft: "1rem" }}>
-                            <a class="nav-link" href="/aboutme">About Me</a>
+                            <Link to="/aboutme" class="nav-link" >About Me</Link>
                         </li>
                         <li class="nav-item" style={{ marginLeft: "1rem" }}>
-                            <a class="nav-link" href="/project">Projects</a>
+                            <Link to="/project" class="nav-link">Projects</Link>
                         </li>
 
                         <li class="nav-item" style={{ marginLeft: "1rem" }}>
@@ -34,7 +35,7 @@ class MenuBar extends Component {
                             </div>
                         </li>
                         <li class="nav-item" style={{ marginLeft: "1rem" }}>
-                            <a class="nav-link" href="/contact">Contact Me</a>
+                            <Link to="/contact" class="nav-link">Contact Me</Link>
                         </li>
 
                     </ul>
