@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
 
 // list of pages
@@ -10,7 +10,7 @@ import project from './components/project';
 
 function App() {
   return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL} >
           <Switch>
               <Route exact path="/" component={homepage} />
               <Route path="/aboutme" component={aboutme} />
