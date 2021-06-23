@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './nav.css';
 
 class MenuBar extends Component {
     render() {
         return (
-            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div className="font-link">
+            <nav class="navbar navbar-expand-md color-nav ">
                 <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2" style={{ marginLeft: "1.5rem" }}>
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav mr-auto ">
                         <li class="nav-item ">
                             <Link to="/aboutme" class="nav-link" >About Me</Link>
                         </li>
@@ -15,7 +17,7 @@ class MenuBar extends Component {
                             <Link to="/project" class="nav-link">Projects</Link>
                         </li>
                         <li class="nav-item " style={{ marginLeft: "1rem" }}>
-                            <a class="nav-link" href="https://drive.google.com/file/d/1OeMbBoJL4LWet48ZJ39bcWi3gdo56PtF/view?usp=sharing" target="_blank">Resume</a>
+                                <a class="nav-link" href="https://drive.google.com/file/d/1lRjJ4P4heFGx1HQ-uKHJwVp3HompxS16/view?usp=sharing" target="_blank">Resume</a>
                         </li>
                     </ul>
                 </div>
@@ -43,7 +45,8 @@ class MenuBar extends Component {
                         </li>
                     </ul>
                 </div>
-            </nav>
+                </nav>
+                </div>
 
         );
     }

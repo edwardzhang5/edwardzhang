@@ -9,7 +9,8 @@ import contact from './components/contact';
 import project from './components/project';
 
 function App() {
-  return (
+    return (
+
       <Router basename={process.env.PUBLIC_URL} >
           <Switch>
               <Route exact path="/" component={homepage} />
@@ -17,7 +18,9 @@ function App() {
               <Route path="/contact" component={contact} />
               <Route path="/project" component={project} />
           </Switch>
-      </Router>
+            </Router>
+
+        
 
   );
 }

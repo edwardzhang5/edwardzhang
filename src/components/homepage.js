@@ -7,7 +7,7 @@ class homepage extends Component {
         return (
             <div>
             <MenuBar/>
-            <div style={{ marginLeft: "80px", marginTop: "80px" } }>
+            <div className="font-link" style={{ marginLeft: "80px", marginTop: "80px", color:"white" } }>
                 <h1>Welcome to Edward's webpage</h1>
                     <Link to= "/aboutme">
                         <button
