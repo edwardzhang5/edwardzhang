@@ -6,7 +6,7 @@ class MenuBar extends Component {
     render() {
         return (
             <div className="font-link">
-            <nav class="navbar navbar-expand-md color-nav ">
+            <nav class="navbar navbar-expand-md color-nav navbar-dark ">
                 <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2" style={{ marginLeft: "1.5rem" }}>
                     <ul class="navbar-nav mr-auto ">
                         <li class="nav-item ">
