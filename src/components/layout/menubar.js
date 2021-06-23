@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Container } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './nav.css';
 
@@ -17,7 +16,7 @@ class MenuBar extends Component {
                             <Link to="/project" class="nav-link">Projects</Link>
                         </li>
                         <li class="nav-item " style={{ marginLeft: "1rem" }}>
-                                <a class="nav-link" href="https://drive.google.com/file/d/1lRjJ4P4heFGx1HQ-uKHJwVp3HompxS16/view?usp=sharing" target="_blank">Resume</a>
+                                <a class="nav-link" href="https://drive.google.com/file/d/1lRjJ4P4heFGx1HQ-uKHJwVp3HompxS16/view?usp=sharing" target="_blank" rel="noreferrer">Resume</a>
                         </li>
                     </ul>
                 </div>
@@ -34,10 +33,10 @@ class MenuBar extends Component {
                                 Socials
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="https://www.linkedin.com/in/edwardzhang5/" target="_blank">LinkedIn</a>
-                                <a class="dropdown-item" href="https://github.com/edwardzhang5" target="_blank">GitHub</a>
-                                <a class="dropdown-item" href="https://www.facebook.com/edward.zhang.353250" target="_blank">Facebook</a>
-                                <a class="dropdown-item" href="https://twitter.com/edward_zhang_" target="_blank">Twitter</a>
+                                    <a class="dropdown-item" href="https://www.linkedin.com/in/edwardzhang5/" target="_blank" rel="noreferrer">LinkedIn</a>
+                                    <a class="dropdown-item" href="https://github.com/edwardzhang5" target="_blank" rel="noreferrer">GitHub</a>
+                                    <a class="dropdown-item" href="https://www.facebook.com/edward.zhang.353250" target="_blank" rel="noreferrer">Facebook</a>
+                                    <a class="dropdown-item" href="https://twitter.com/edward_zhang_" target="_blank" rel="noreferrer">Twitter</a>
                             </div>
                         </li>
                         <li class="nav-item">
