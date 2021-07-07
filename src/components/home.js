@@ -62,10 +62,8 @@ class Home extends React.Component {
                                         </div>
                                         <span id="typed"></span>
                                     </div>
-                                    {/*<!-- Start text slide -->*/}
 
                                     <div className="mu-featured-content">
-                                        <p>I love creating new things.</p>
                                         <a href="#mu-portfolio" className="mu-primary-btn view-my-work-btn">VIEW MY WORK</a>
                                     </div>
 
