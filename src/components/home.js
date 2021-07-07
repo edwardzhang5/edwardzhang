@@ -138,7 +138,7 @@ class Home extends React.Component {
                                                         </div>
 
                                                         {/* <!-- Download Ressume Button -->*/}
-                                                        <a href="#" className="mu-resume-btn">Download My Resume</a>
+                                                        <a href="assets/EdwardZhangResume.pdf" className="mu-resume-btn">Download My Resume</a>
 
                                                     </div>
                                                 </div>
