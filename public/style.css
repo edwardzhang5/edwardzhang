@@ -344,6 +344,7 @@ button:focus {
 	display: inline;
 	float: left;
 	width: 100%;
+
 }
 
 
@@ -358,21 +359,24 @@ button:focus {
 .mu-featured-area h1 {
 	font-size: 60px;
 	color: #fff;
-	font-weight: 700;
+	font-weight: 900;
 	margin-bottom: 0;
 	line-height: 1;
 }
 
 .mu-featured-slider-wrapper {
+	margin-top: 20px;
 	display: inline;
 	float: left;
 	width: 100%;
+
 }
 
 .mu-featured-slider {
 	display: inline;
 	float: left;
 	width: 100%;
+
 }
 
 .mu-featured-slider p,
@@ -387,19 +391,19 @@ button:focus {
 .typed-cursor {
 	color: #fff;
 	font-size: 30px;
-	font-weight: 600;
+	font-weight: 100;
 }
 
 .mu-featured-content {
-	margin-top: 15px;
+	margin-top: 2px;
 	display: inline;
 	float: left;
 	width: 100%;
 }
 
-.mu-featured-content p{
-	color: #fff;
-}
+.mu-featured-content p {
+		color: #fff;
+	}
 
 .mu-featured-content a{
 	margin-top: 35px;

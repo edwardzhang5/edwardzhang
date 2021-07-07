@@ -1,6 +1,8 @@
 import React from 'react';
+import TypedReact from './assets/TypedReact';
 
 class Home extends React.Component {
+
     render() {
         return (
             <div>
@@ -55,13 +57,11 @@ class Home extends React.Component {
 
                                     {/*<!-- Start text slide -->*/}
                                     <div className="mu-featured-slider-wrapper">
-                                        <div className="mu-featured-slider" id="typed-strings">
-                                            <p>I am a <span>Visionary</span></p>
-                                            <p>I am a <span>Problem-Solver</span></p>
-                                            <p>I am a <span>Adventurer</span></p>
+                                        <div className="mu-featured-slider">
+                                            <TypedReact strings={['I am a <b>Creator</b>', 'I am a <b>Problem-Solver</b>', 'I am an <b>Adventurer</b>', 'I am a <b>Learner</b>']}/>
                                         </div>
-                                        <span id="typed"></span>
                                     </div>
+
 
                                     <div className="mu-featured-content">
                                         <a href="#mu-portfolio" className="mu-primary-btn view-my-work-btn">VIEW MY WORK</a>
@@ -74,7 +74,7 @@ class Home extends React.Component {
                 </section>
 
                 {/*<!-- Start Featured Slider -->*/}
-
+                
                 {/*<!-- Start main content -->*/}
 
                 <main role="main">
