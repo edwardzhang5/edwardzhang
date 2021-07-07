@@ -31,7 +31,7 @@ class Home extends React.Component {
                                 <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                     <ul className="nav navbar-nav mu-menu navbar-right">
                                         <li><a href="#">HOME</a></li>
-                                        <li><a href="#mu-about">ABOUT US</a></li>
+                                        <li><a href="#mu-about">ABOUT ME</a></li>
                                         <li><a href="#mu-service">SERVICES</a></li>
                                         <li><a href="#mu-portfolio">PORTFOLIO</a></li>
                                         <li><a href="#mu-testimonials">TESTIMONIALS</a></li>
@@ -56,9 +56,9 @@ class Home extends React.Component {
                                     {/*<!-- Start text slide -->*/}
                                     <div className="mu-featured-slider-wrapper">
                                         <div className="mu-featured-slider" id="typed-strings">
-                                            <p>I am <span>UI/UX Designer</span></p>
-                                            <p>I am <span>Web Developer</span></p>
-                                            <p>I am <span>Photographer</span></p>
+                                            <p>I am a<span>Visionary</span></p>
+                                            <p>I am a<span>Problem-Solver</span></p>
+                                            <p>I am a<span>Adventurer</span></p>
                                         </div>
                                         <span id="typed"></span>
                                     </div>
@@ -91,7 +91,8 @@ class Home extends React.Component {
                                         <div className="mu-about-header">
                                             <h2 className="mu-heading-title">ABOUT ME</h2>
                                             <span className="mu-header-dot"></span>
-                                            <p>My name is Kevin Pitter. I am professional <strong>Web Designer</strong> and <strong>Web Developer</strong>. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                                            <p>My name is Edward Zhang. I am a student at the <strong>University of Florida</strong> studying <strong>Computer Engineering</strong> and <strong>Finance</strong>. I am passionate about technology and machine learning and am extremely excited to leverage new ideas to advance our financial capabilities.</p>
+                                            <p>As an individual, I would view myself as a highly analytical and data-driven problem-solver who likes to find unconventional solutions. My biggest fear is that I will miss out on an unreplaceable opportunity, especially with the accelerating advancements in technology and artificial intelligence.</p>
                                         </div>
 
                                         {/*<!-- Start About Us Content -->*/}
@@ -133,8 +134,6 @@ class Home extends React.Component {
                                                             <h3>Social</h3>
                                                             <a href="#"><i className="fa fa-facebook"></i></a>
                                                             <a href="#"><i className="fa fa-twitter"></i></a>
-                                                            <a href="#"><i className="fa fa-linkedin"></i></a>
-                                                            <a href="#"><i className="fa fa-google-plus"></i></a>
                                                         </div>
 
                                                         {/* <!-- Download Ressume Button -->*/}
