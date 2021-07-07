@@ -56,16 +56,16 @@ class Home extends React.Component {
                                     {/*<!-- Start text slide -->*/}
                                     <div className="mu-featured-slider-wrapper">
                                         <div className="mu-featured-slider" id="typed-strings">
-                                            <p>I am a<span>Visionary</span></p>
-                                            <p>I am a<span>Problem-Solver</span></p>
-                                            <p>I am a<span>Adventurer</span></p>
+                                            <p>I am a <span>Visionary</span></p>
+                                            <p>I am a <span>Problem-Solver</span></p>
+                                            <p>I am a <span>Adventurer</span></p>
                                         </div>
                                         <span id="typed"></span>
                                     </div>
                                     {/*<!-- Start text slide -->*/}
 
                                     <div className="mu-featured-content">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ipsa necessitatibus voluptate. Dolores sed neque, accusantium iusto inventore harum quibusdam, aspernatur, ullam vero ea eos ipsam tenetur dolore qui voluptatibus!</p>
+                                        <p></p>
                                         <a href="#mu-portfolio" className="mu-primary-btn view-my-work-btn">VIEW MY WORK</a>
                                     </div>
 
@@ -133,7 +133,8 @@ class Home extends React.Component {
                                                         <div className="mu-social-media">
                                                             <h3>Social</h3>
                                                             <a href="#"><i className="fa fa-facebook"></i></a>
-                                                            <a href="#"><i className="fa fa-twitter"></i></a>
+                                                            <a href="https://twitter.com/edward_zhang_"><i className="fa fa-twitter"></i></a>
+                                                            <a href="https://www.linkedin.com/in/edwardzhang5/"><i className="fa fa-linkedin"></i></a>
                                                         </div>
 
                                                         {/* <!-- Download Ressume Button -->*/}
