@@ -90,7 +90,9 @@ class Home extends React.Component {
                                             <h2 className="mu-heading-title">ABOUT ME</h2>
                                             <span className="mu-header-dot"></span>
                                             <p>My name is Edward Zhang. I am a student at the <strong>University of Florida</strong> studying <strong>Computer Engineering</strong> and <strong>Finance</strong>. I am passionate about technology and machine learning and am extremely excited to leverage new ideas to advance our financial capabilities.</p>
-                                            <p>As an individual, I would view myself as a highly analytical and data-driven problem-solver who likes to find unconventional solutions. My biggest fear is that I will miss out on an unreplaceable opportunity, especially with the accelerating advancements in technology and artificial intelligence.</p>
+                                            <p>I'm a highly analytical and data-driven problem-solver who likes to find unconventional solutions using a bigger picture understanding.
+                                            I love learning and believe in continuous improvement in everything I do. I think that there's always a way to do something better - and my life's goal is to find out how.
+                                                </p>
                                         </div>
 
                                         {/*<!-- Start About Us Content -->*/}
