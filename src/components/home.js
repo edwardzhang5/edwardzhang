@@ -57,7 +57,7 @@ class Home extends React.Component {
                                     {/*<!-- Start text slide -->*/}
                                     <div className="mu-featured-slider-wrapper">
                                         <div className="mu-featured-slider">
-                                            <TypedReact strings={['I am a <b>Creator</b>', 'I am a <b>Problem-Solver</b>', 'I am an <b>Adventurer</b>', 'I am a <b>Learner</b>']}/>
+                                            <TypedReact strings={['I am a <b>Creator</b>', 'I am a <b>Problem-Solver</b>', 'I am an <b>Visionary</b>', 'I am an <b>Adventurer</b>']}/>
                                         </div>
                                     </div>
 
