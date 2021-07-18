@@ -35,8 +35,7 @@ class Home extends React.Component {
                                         <li><a href="#">HOME</a></li>
                                         <li><a href="#mu-about">ABOUT ME</a></li>
                                         <li><a href="#mu-service">SERVICES</a></li>
-                                        <li><a href="#mu-portfolio">PORTFOLIO</a></li>
-                                        <li><a href="#mu-testimonials">TESTIMONIALS</a></li>
+                                        <li><a href="#mu-portfolio">PROJECTS</a></li>
                                         <li><a href="#mu-contact">CONTACT</a></li>
                                     </ul>
                                 </div>{/*<!-- /.navbar-collapse -->*/}
@@ -110,29 +109,32 @@ class Home extends React.Component {
 
                                                         <div className="mu-skill-progress-bar">
                                                             <h3>Skills</h3>
-                                                            <span>Html5</span>
-                                                            <div className="mu-pro-bar mu-html5-bar">
+                                                            <span>C++</span>
+                                                            <div className="mu-pro-bar mu-c++-bar">
 
                                                             </div>
-                                                            <span>css</span>
-                                                            <div className="mu-pro-bar mu-css-bar">
+                                                            <span>Python</span>
+                                                            <div className="mu-pro-bar mu-python-bar">
 
                                                             </div>
-                                                            <span>Photoshop</span>
-                                                            <div className="mu-pro-bar mu-photoshop-bar">
+                                                            <span>Java</span>
+                                                            <div className="mu-pro-bar mu-java-bar">
                                                             </div>
-                                                            <span>Wordpress</span>
-                                                            <div className="mu-pro-bar mu-wordpress-bar">
+                                                            <span>React</span>
+                                                            <div className="mu-pro-bar mu-react-bar">
                                                             </div>
-                                                            <span>jQuery</span>
-                                                            <div className="mu-pro-bar mu-jquery-bar">
+                                                            <span>Node.JS</span>
+                                                            <div className="mu-pro-bar mu-node-bar">
+                                                            </div>
+                                                            <span>Machine Learning</span>
+                                                            <div className="mu-pro-bar mu-ml-bar">
                                                             </div>
                                                         </div>
 
                                                         {/*<!-- Start Social Media -->*/}
                                                         <div className="mu-social-media">
                                                             <h3>Social</h3>
-                                                            <a href="#"><i className="fa fa-facebook"></i></a>
+                                                            <a href="https://github.com/edwardzhang5"><i className="fa fa-github"></i></a>
                                                             <a href="https://twitter.com/edward_zhang_"><i className="fa fa-twitter"></i></a>
                                                             <a href="https://www.linkedin.com/in/edwardzhang5/"><i className="fa fa-linkedin"></i></a>
                                                         </div>
@@ -261,22 +263,11 @@ class Home extends React.Component {
                                     <div className="mu-portfolio-area">
 
                                         <div className="mu-portfolio-header">
-                                            <h2 className="mu-heading-title">MY PORTFOLIO</h2>
+                                            <h2 className="mu-heading-title">MY PROJECTS</h2>
                                             <span className="mu-header-dot"></span>
                                         </div>
 
-                                        {/*<!-- Start Portfolio Filter -->*/}
-                                        <div className="mu-portfolio-filter-area">
-                                            <ul className="mu-simplefilter">
-                                                <li className="active" data-filter="all">All</li>
-                                                <li data-filter="1">Web App</li>
-                                                <li data-filter="2">UI/UX</li>
-                                                <li data-filter="3">Graphics Design</li>
-                                                <li data-filter="4">Mobile App</li>
-                                                <li data-filter="5">Branding</li>
-                                                <li data-filter="6">Marketing</li>
-                                            </ul>
-                                        </div>
+
 
                                         {/* <!-- Start Portfolio Content -->*/}
                                         <div className="mu-portfolio-content">
@@ -392,50 +383,7 @@ class Home extends React.Component {
                     </section>
                     {/*<!-- End Portfolio -->*/}
 
-                    {/*<!-- Start Testimonials -->*/}
-                    <section id="mu-testimonials">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-md-12">
-                                    <div className="mu-testimonials-area">
-                                        <div className="mu-testimonial-header">
-                                            <h2 className="mu-heading-title">Client Testimonials</h2>
-                                            <span className="mu-header-dot"></span>
-                                        </div>
 
-                                        <div className="mu-testimonials-block">
-                                            <ul className="mu-testimonial-slide">
-
-                                                <li>
-                                                    <i className="fa fa-quote-right mu-quote-icon"></i>
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-                                                    <h5 className="mu-ct-name"> - Jhon Doe</h5>
-                                                    <span className="mu-ct-title">CEO, Apple Inc.</span>
-                                                </li>
-
-                                                <li>
-                                                    <i className="fa fa-quote-right mu-quote-icon"></i>
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-                                                    <h5 className="mu-ct-name"> - Alice Boga</h5>
-                                                    <span className="mu-ct-title">Director, Google Inc.</span>
-                                                </li>
-
-                                                <li>
-                                                    <i className="fa fa-quote-right mu-quote-icon"></i>
-                                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
-                                                    <h5 className="mu-ct-name"> - Jhon Smith</h5>
-                                                    <span className="mu-ct-title">Web Developer</span>
-                                                </li>
-
-                                            </ul>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    {/*<!-- End Testimonials -->*/}
 
 
                     {/*<!-- Start Contact -->*/}
@@ -448,7 +396,7 @@ class Home extends React.Component {
                                         <div className="mu-contact-header">
                                             <h2 className="mu-heading-title">CONTACT ME</h2>
                                             <span className="mu-header-dot"></span>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                                            <p>Feel free to contact me! I usually try to get back to emails and phone calls within one business day. </p>
                                         </div>
 
                                         {/*<!-- Start Contact Content -->*/}
@@ -462,21 +410,19 @@ class Home extends React.Component {
                                                             <div className="col-sm-4">
                                                                 <div className="mu-contact-top-single">
                                                                     <div className="mu-icon"><i className="fa fa-map-marker"></i></div>
-                                                                    <p>Dooley Branch Rd Millen, GA 30442, USA</p>
+                                                                    <p>Gainesville, Florida, USA</p>
                                                                 </div>
                                                             </div>
                                                             <div className="col-sm-4">
                                                                 <div className="mu-contact-top-single">
                                                                     <div className="mu-icon"><i className="fa fa-phone"></i></div>
-                                                                    <p>+90 987 678 9834</p>
-                                                                    <p>+90 567 098 785</p>
+                                                                    <p>+1 561 202 7436</p>
                                                                 </div>
                                                             </div>
                                                             <div className="col-sm-4">
                                                                 <div className="mu-contact-top-single">
                                                                     <div className="mu-icon"><i className="fa fa-envelope"></i></div>
-                                                                    <p>contact@domain.com</p>
-                                                                    <p>support@domain.com</p>
+                                                                    <p>edwardzhang5@gmail.com</p>
                                                                 </div>
                                                             </div>
 
@@ -522,7 +468,7 @@ class Home extends React.Component {
                 <footer id="mu-footer" role="contentinfo">
                     <div className="container">
                         <div className="mu-footer-area">
-                            <p className="mu-copy-right">&copy; Copyright <a rel="nofollow" href="http://markups.io">markups.io</a>. All right reserved.</p>
+                            <p className="mu-copy-right">&copy; Copyright markups.io. All right reserved.</p>
                         </div>
                     </div>
 
