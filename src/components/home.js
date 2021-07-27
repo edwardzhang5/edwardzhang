@@ -6,12 +6,12 @@ class Home extends React.Component {
     render() {
         return (
             <div>
-                {/*<!-- Start Header -->*/}
+                {/* Start Header */}
                 <header id="mu-header" className="" role="banner">
                     <div className="container">
                         <nav className="navbar navbar-default mu-navbar">
                             <div className="container-fluid">
-                                {/* <!-- Brand and toggle get grouped for better mobile display -->*/}
+                                {/*  Brand and toggle get grouped for better mobile display */}
                                 <div className="navbar-header">
                                     <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                         <span className="sr-only">Toggle navigation</span>
@@ -20,32 +20,31 @@ class Home extends React.Component {
                                         <span className="icon-bar"></span>
                                     </button>
 
-                                    {/*<!-- Text Logo -->*/}
+                                    {/* Text Logo */}
                                     <a className="navbar-brand" href="#">Edward</a>
 
-                                    {/*<!-- Image Logo -->*/}
-                                    {/*<!-- <a className="navbar-brand" href="#"><img src="assets/images/logo.png"></a> -->*/}
+                                    {/* Image Logo */}
+                                    {/* <a className="navbar-brand" href="#"><img src="assets/images/logo.png"></a> */}
 
 
                                 </div>
 
-                                {/*<!-- Collect the nav links, forms, and other content for toggling -->*/}
+                                {/* Collect the nav links, forms, and other content for toggling */}
                                 <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                                     <ul className="nav navbar-nav mu-menu navbar-right">
                                         <li><a href="#">HOME</a></li>
                                         <li><a href="#mu-about">ABOUT ME</a></li>
-                                        <li><a href="#mu-service">SERVICES</a></li>
                                         <li><a href="#mu-portfolio">PROJECTS</a></li>
                                         <li><a href="#mu-contact">CONTACT</a></li>
                                     </ul>
-                                </div>{/*<!-- /.navbar-collapse -->*/}
-                            </div>{/*<!-- /.container-fluid -->*/}
+                                </div>{/* /.navbar-collapse */}
+                            </div>{/* /.container-fluid */}
                         </nav>
                     </div>
                 </header>
-                {/*<!-- End Header -->*/}
+                {/* End Header */}
 
-                {/*<!-- Start Featured Slider -->*/}
+                {/* Start Featured Slider */}
 
                 <section id="mu-featured-slider">
                     <div className="container">
@@ -54,7 +53,7 @@ class Home extends React.Component {
                                 <div className="mu-featured-area">
                                     <h1>Edward Zhang</h1>
 
-                                    {/*<!-- Start text slide -->*/}
+                                    {/* Start text slide */}
                                     <div className="mu-featured-slider-wrapper">
                                         <div className="mu-featured-slider">
                                             <TypedReact strings={['I am a <b>Creator</b>', 'I am a <b>Problem-Solver</b>', 'I am an <b>Visionary</b>', 'I am an <b>Adventurer</b>']}/>
@@ -72,13 +71,13 @@ class Home extends React.Component {
                     </div>
                 </section>
 
-                {/*<!-- Start Featured Slider -->*/}
+                {/* Start Featured Slider */}
                 
-                {/*<!-- Start main content -->*/}
+                {/* Start main content */}
 
                 <main role="main">
 
-                    {/* <!-- Start About -->*/}
+                    {/*  Start About */}
                     <section id="mu-about">
                         <div className="container">
                             <div className="row">
@@ -94,7 +93,7 @@ class Home extends React.Component {
                                                 </p>
                                         </div>
 
-                                        {/*<!-- Start About Us Content -->*/}
+                                        {/* Start About Us Content */}
                                         <div className="mu-about-content">
                                             <div className="row">
                                                 <div className="col-md-6">
@@ -105,7 +104,7 @@ class Home extends React.Component {
                                                 <div className="col-md-6">
                                                     <div className="mu-about-content-right">
 
-                                                        {/*<!-- Start skills progress bar -->*/}
+                                                        {/* Start skills progress bar */}
 
                                                         <div className="mu-skill-progress-bar">
                                                             <h3>Skills</h3>
@@ -131,131 +130,32 @@ class Home extends React.Component {
                                                             </div>
                                                         </div>
 
-                                                        {/*<!-- Start Social Media -->*/}
+                                                        {/* Start Social Media */}
                                                         <div className="mu-social-media">
                                                             <h3>Social</h3>
-                                                            <a href="https://github.com/edwardzhang5"><i className="fa fa-github"></i></a>
-                                                            <a href="https://twitter.com/edward_zhang_"><i className="fa fa-twitter"></i></a>
-                                                            <a href="https://www.linkedin.com/in/edwardzhang5/"><i className="fa fa-linkedin"></i></a>
+                                                            <a href="https://github.com/edwardzhang5" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a>
+                                                            <a href="https://twitter.com/edward_zhang_" target="_blank" rel="noopener noreferrer" ><i className="fa fa-twitter"></i></a>
+                                                            <a href="https://www.linkedin.com/in/edwardzhang5/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a>
                                                         </div>
 
-                                                        {/* <!-- Download Ressume Button -->*/}
+                                                        {/*  Download Ressume Button */}
                                                         <a href="assets/EdwardZhangResume.pdf" className="mu-resume-btn">Download My Resume</a>
 
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        {/* <!-- End About Us Content -->*/}
+                                        {/*  End About Us Content */}
 
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    {/*<!-- End About -->*/}
+                    {/* End About */}
 
-                    {/*<!-- Start Service -->*/}
-                    <section id="mu-service">
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-md-12">
-                                    <div className="mu-service-area">
 
-                                        <div className="mu-service-header">
-                                            <h2 className="mu-heading-title">MY SERVICES</h2>
-                                            <span className="mu-header-dot"></span>
-                                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
-                                        </div>
-
-                                        {/*<!-- Start Service Content -->*/}
-                                        <div className="mu-service-content">
-                                            <div className="row">
-
-                                                {/*<!-- Service Single Content -->*/}
-                                                <div className="col-md-4 col-sm-6">
-                                                    <div className="mu-service-content-single">
-                                                        <span className="mu-service-icon-box">
-                                                            <i className="fa fa-leaf"></i>
-                                                        </span>
-                                                        <h4>UI/UX Design</h4>
-                                                        <p>Lorem ipsum dolor sit amet, consect adipis elit minim veniam ettis inkeras.</p>
-                                                    </div>
-                                                </div>
-                                                {/*<!-- / Service Single Content -->*/}
-
-                                                {/*<!-- Service Single Content -->*/}
-                                                <div className="col-md-4 col-sm-6">
-                                                    <div className="mu-service-content-single">
-                                                        <span className="mu-service-icon-box">
-                                                            <i className="fa fa-desktop"></i>
-                                                        </span>
-                                                        <h4>Web Development</h4>
-                                                        <p>Lorem ipsum dolor sit amet, consect adipis elit minim veniam ettis inkeras.</p>
-                                                    </div>
-                                                </div>
-                                                {/*<!-- / Service Single Content -->*/}
-
-                                                {/*<!-- Service Single Content -->*/}
-                                                <div className="col-md-4 col-sm-6">
-                                                    <div className="mu-service-content-single">
-                                                        <span className="mu-service-icon-box">
-                                                            <i className="fa fa-briefcase"></i>
-                                                        </span>
-                                                        <h4>Branding</h4>
-                                                        <p>Lorem ipsum dolor sit amet, consect adipis elit minim veniam ettis inkeras.</p>
-                                                    </div>
-                                                </div>
-                                                {/* <!-- / Service Single Content -->*/}
-
-                                                {/*<!-- Service Single Content -->*/}
-                                                <div className="col-md-4 col-sm-6">
-                                                    <div className="mu-service-content-single">
-                                                        <span className="mu-service-icon-box">
-                                                            <i className="fa fa-camera"></i>
-                                                        </span>
-                                                        <h4>Photography</h4>
-                                                        <p>Lorem ipsum dolor sit amet, consect adipis elit minim veniam ettis inkeras.</p>
-                                                    </div>
-                                                </div>
-                                                {/*<!-- / Service Single Content -->*/}
-
-                                                {/*<!-- Service Single Content -->*/}
-                                                <div className="col-md-4 col-sm-6">
-                                                    <div className="mu-service-content-single">
-                                                        <span className="mu-service-icon-box">
-                                                            <i className="fa fa-android"></i>
-                                                        </span>
-                                                        <h4>Apps Development</h4>
-                                                        <p>Lorem ipsum dolor sit amet, consect adipis elit minim veniam ettis inkeras.</p>
-                                                    </div>
-                                                </div>
-                                                {/*<!-- / Service Single Content -->*/}
-
-                                                {/*<!-- Service Single Content -->*/}
-                                                <div className="col-md-4 col-sm-6">
-                                                    <div className="mu-service-content-single">
-                                                        <span className="mu-service-icon-box">
-                                                            <i className="fa fa-line-chart"></i>
-                                                        </span>
-                                                        <h4>Digital Marketing</h4>
-                                                        <p>Lorem ipsum dolor sit amet, consect adipis elit minim veniam ettis inkeras.</p>
-                                                    </div>
-                                                </div>
-                                                {/*<!-- / Service Single Content -->*/}
-
-                                            </div>
-                                        </div>
-                                        {/* <!-- End Service Content -->*/}
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    {/* <!-- End Service -->*/}
-
-                    {/*<!-- Start Portfolio -->*/}
+                    {/* Start Portfolio */}
                     <section id="mu-portfolio">
                         <div className="container">
                             <div className="row">
@@ -269,7 +169,7 @@ class Home extends React.Component {
 
 
 
-                                        {/* <!-- Start Portfolio Content -->*/}
+                                        {/*  Start Portfolio Content */}
                                         <div className="mu-portfolio-content">
                                             <div className="filtr-container">
 
@@ -339,49 +239,17 @@ class Home extends React.Component {
                                                     </div>
                                                 </div>
 
-                                                <div className="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="1">
-                                                    <div className="mu-item-thumbonail">
-                                                        <img className="img-responsive" src="assets/images/portfolio/img-7.jpg" alt="image" />
-                                                    </div>
-                                                    <div className="mu-filter-item-content">
-                                                        <h4 className="mu-filter-item-title">WEB DEVELOPMENT</h4>
-                                                        <a className="mu-filter-link" href="#"><i className="fa fa-link"></i></a>
-                                                        <a className="mu-filter-imglink" href="assets/images/portfolio/img-7.jpg" title="WEB DEVELOPMENT"><i className="fa fa-search"></i></a>
-                                                    </div>
-                                                </div>
-
-                                                <div className="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="4">
-                                                    <div className="mu-item-thumbonail">
-                                                        <img className="img-responsive" src="assets/images/portfolio/img-8.jpeg" alt="image" />
-                                                    </div>
-                                                    <div className="mu-filter-item-content">
-                                                        <h4 className="mu-filter-item-title">MOBILE APP</h4>
-                                                        <a className="mu-filter-link" href="#"><i className="fa fa-link"></i></a>
-                                                        <a className="mu-filter-imglink" href="assets/images/portfolio/img-8.jpeg" title="MOBILE APP"><i className="fa fa-search"></i></a>
-                                                    </div>
-                                                </div>
-
-                                                <div className="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="3">
-                                                    <div className="mu-item-thumbonail">
-                                                        <img className="img-responsive" src="assets/images/portfolio/img-9.jpeg" alt="image" />
-                                                    </div>
-                                                    <div className="mu-filter-item-content">
-                                                        <h4 className="mu-filter-item-title">GRAPHICS DESIGN</h4>
-                                                        <a className="mu-filter-link" href="#"><i className="fa fa-link"></i></a>
-                                                        <a className="mu-filter-imglink" href="assets/images/portfolio/img-9.jpeg" title="GRAPHICS DESIGN"><i className="fa fa-search"></i></a>
-                                                    </div>
-                                                </div>
 
                                             </div>
                                         </div>
-                                        {/* <!-- End Portfolio Content -->*/}
+                                        {/*  End Portfolio Content */}
 
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    {/*<!-- End Portfolio -->*/}
+                    {/* End Portfolio */}
 
 
 
