@@ -386,7 +386,7 @@ class Home extends React.Component {
 
 
 
-                    {/*<!-- Start Contact -->*/}
+                    {/* Start Contact */}
                     <section id="mu-contact">
                         <div className="container">
                             <div className="row">
@@ -399,7 +399,7 @@ class Home extends React.Component {
                                             <p>Feel free to contact me! I usually try to get back to emails and phone calls within one business day. </p>
                                         </div>
 
-                                        {/*<!-- Start Contact Content -->*/}
+                                        {/* Start Contact Content */}
                                         <div className="mu-contact-content">
                                             <div className="row">
 
@@ -433,34 +433,18 @@ class Home extends React.Component {
 
                                             </div>
                                         </div>
-                                        {/*<!-- End Contact Content -->*/}
+                                        {/* End Contact Content */}
 
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    {/*<!-- End Contact -->*/}
+                    {/* End Contact */}
 
                 </main>
 
-                {/*<!-- End main content -->*/}
-
-
-                {/*<!-- Start footer -->*/}
-                <footer id="mu-footer" role="contentinfo">
-                    <div className="container">
-                        <div className="mu-footer-area">
-                            <p className="mu-copy-right">&copy; Copyright markups.io. All right reserved.</p>
-                        </div>
-                    </div>
-
-                </footer>
-                {/*<!-- End footer -->*/}
-
-
-
-
+                {/* End main content */}
 
 
             </div>
