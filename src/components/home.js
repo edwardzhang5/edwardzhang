@@ -134,8 +134,8 @@ class Home extends React.Component {
                                                         <div className="mu-social-media">
                                                             <h3>Social</h3>
                                                             <a href="https://github.com/edwardzhang5" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a>
-                                                            <a href="https://twitter.com/edward_zhang_" target="_blank" rel="noopener noreferrer" ><i className="fa fa-twitter"></i></a>
                                                             <a href="https://www.linkedin.com/in/edwardzhang5/" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a>
+                                                            <a href="https://twitter.com/edward_zhang_" target="_blank" rel="noopener noreferrer" ><i className="fa fa-twitter"></i></a>
                                                         </div>
 
                                                         {/*  Download Ressume Button */}
@@ -173,18 +173,18 @@ class Home extends React.Component {
                                         <div className="mu-portfolio-content">
                                             <div className="filtr-container">
 
-                                                <div className="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="1">
+                                                <div className="col-xs-12 col-sm-12 col-md-12 filtr-item" data-category="1">
                                                     <div className="mu-item-thumbonail">
-                                                        <img className="img-responsive" src="assets/images/portfolio/img-1.jpeg" alt="image" />
+                                                        <img className="img-responsive" src="assets/images/portfolio/GG1.gif" alt="image" />
                                                     </div>
                                                     <div className="mu-filter-item-content">
-                                                        <h4 className="mu-filter-item-title">WEB DEVELOPMENT</h4>
+                                                        <h4 className="mu-filter-item-title">Gatorloop Inventory Management System</h4>
                                                         <a className="mu-filter-link" href="#"><i className="fa fa-link"></i></a>
-                                                        <a className="mu-filter-imglink" href="assets/images/portfolio/img-1.jpeg" title="Web Development"><i className="fa fa-search"></i></a>
+                                                        <a className="mu-filter-imglink" href="assets/images/portfolio/GG1.gif" title="GG"><i className="fa fa-search"></i></a>
                                                     </div>
                                                 </div>
 
-                                                <div className="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="2">
+                                                <div className="col-xs-12 col-sm-4 col-md-8 filtr-item" data-category="2">
                                                     <div className="mu-item-thumbonail">
                                                         <img className="img-responsive" src="assets/images/portfolio/img-2.jpeg" alt="image" />
                                                     </div>
