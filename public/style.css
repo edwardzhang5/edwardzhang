@@ -274,6 +274,7 @@ button:focus {
 	width: 100%;
 	position: fixed;
 	padding: 15px 0;
+
 }
 
 
@@ -282,7 +283,7 @@ button:focus {
 /*--------------------*/
 
 .mu-navbar {
-	background-color: transparent;
+	background-color: #339999;
 	border: none;
 	border-radius: 0;
 	margin-bottom: 0;
