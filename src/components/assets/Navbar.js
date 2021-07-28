@@ -1,8 +1,7 @@
 import React from 'react';
 
-
 const Navbar = () => (
-    <nav className="navbar navbar-default mu-navbar">
+    <nav className="navbar navbar-default mu-navbar" sticky="top">
         <div className="container-fluid">
             {/*  Brand and toggle get grouped for better mobile display */}
             <div className="navbar-header">

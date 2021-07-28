@@ -1,6 +1,7 @@
 import React from 'react';
 import TypedReact from './assets/TypedReact';
 import Navbar from './assets/Navbar';
+import {Link} from 'react-router-dom';
 
 class Home extends React.Component {
 
@@ -150,8 +151,9 @@ class Home extends React.Component {
                                                     </div>
                                                     <div className="mu-filter-item-content">
                                                         <h3 className="mu-filter-item-title">Gatorloop Inventory Management System</h3>
-                                                        <a className="mu-filter-link" href="#"><i className="fa fa-link"></i></a>
+                                                        <Link to="/gatorloopims" class="mu-filter-link"><i className="fa fa-link"></i></Link>
                                                         <a className="mu-filter-imglink" href="assets/images/portfolio/GG1.gif" title="GG"><i className="fa fa-search"></i></a>
+                                                        
                                                     </div>
                                                 </div>
 
