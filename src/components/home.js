@@ -1,5 +1,6 @@
 import React from 'react';
 import TypedReact from './assets/TypedReact';
+import Navbar from './assets/Navbar';
 
 class Home extends React.Component {
 
@@ -9,37 +10,7 @@ class Home extends React.Component {
                 {/* Start Header */}
                 <header id="mu-header" className="" role="banner">
                     <div className="container">
-                        <nav className="navbar navbar-default mu-navbar">
-                            <div className="container-fluid">
-                                {/*  Brand and toggle get grouped for better mobile display */}
-                                <div className="navbar-header">
-                                    <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                        <span className="sr-only">Toggle navigation</span>
-                                        <span className="icon-bar"></span>
-                                        <span className="icon-bar"></span>
-                                        <span className="icon-bar"></span>
-                                    </button>
-
-                                    {/* Text Logo */}
-                                    <a className="navbar-brand" href="#">Edward</a>
-
-                                    {/* Image Logo */}
-                                    {/* <a className="navbar-brand" href="#"><img src="assets/images/logo.png"></a> */}
-
-
-                                </div>
-
-                                {/* Collect the nav links, forms, and other content for toggling */}
-                                <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                    <ul className="nav navbar-nav mu-menu navbar-right">
-                                        <li><a href="#">HOME</a></li>
-                                        <li><a href="#mu-about">ABOUT ME</a></li>
-                                        <li><a href="#mu-portfolio">PROJECTS</a></li>
-                                        <li><a href="#mu-contact">CONTACT</a></li>
-                                    </ul>
-                                </div>{/* /.navbar-collapse */}
-                            </div>{/* /.container-fluid */}
-                        </nav>
+                        <Navbar/>
                     </div>
                 </header>
                 {/* End Header */}
@@ -178,7 +149,7 @@ class Home extends React.Component {
                                                         <img className="img-responsive" src="assets/images/portfolio/GG1.gif" alt="image" />
                                                     </div>
                                                     <div className="mu-filter-item-content">
-                                                        <h4 className="mu-filter-item-title">Gatorloop Inventory Management System</h4>
+                                                        <h3 className="mu-filter-item-title">Gatorloop Inventory Management System</h3>
                                                         <a className="mu-filter-link" href="#"><i className="fa fa-link"></i></a>
                                                         <a className="mu-filter-imglink" href="assets/images/portfolio/GG1.gif" title="GG"><i className="fa fa-search"></i></a>
                                                     </div>
@@ -203,39 +174,6 @@ class Home extends React.Component {
                                                         <h4 className="mu-filter-item-title">GRAPHICS DESIGN</h4>
                                                         <a className="mu-filter-link" href="#"><i className="fa fa-link"></i></a>
                                                         <a className="mu-filter-imglink" href="assets/images/portfolio/img-3.jpeg" title="GRAPHICS DESIGN"><i className="fa fa-search"></i></a>
-                                                    </div>
-                                                </div>
-
-                                                <div className="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="4">
-                                                    <div className="mu-item-thumbonail">
-                                                        <img className="img-responsive" src="assets/images/portfolio/img-4.jpeg" alt="image" />
-                                                    </div>
-                                                    <div className="mu-filter-item-content">
-                                                        <h4 className="mu-filter-item-title">MOBILE APP</h4>
-                                                        <a className="mu-filter-link" href="#"><i className="fa fa-link"></i></a>
-                                                        <a className="mu-filter-imglink" href="assets/images/portfolio/img-4.jpeg" title="MOBILE APP"><i className="fa fa-search"></i></a>
-                                                    </div>
-                                                </div>
-
-                                                <div className="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="5">
-                                                    <div className="mu-item-thumbonail">
-                                                        <img className="img-responsive" src="assets/images/portfolio/img-5.jpeg" alt="image" />
-                                                    </div>
-                                                    <div className="mu-filter-item-content">
-                                                        <h4 className="mu-filter-item-title">BRANDING</h4>
-                                                        <a className="mu-filter-link" href="#"><i className="fa fa-link"></i></a>
-                                                        <a className="mu-filter-imglink" href="assets/images/portfolio/img-5.jpeg" title="BRANDING"><i className="fa fa-search"></i></a>
-                                                    </div>
-                                                </div>
-
-                                                <div className="col-xs-6 col-sm-4 col-md-4 filtr-item" data-category="6">
-                                                    <div className="mu-item-thumbonail">
-                                                        <img className="img-responsive" src="assets/images/portfolio/img-6.jpeg" alt="image" />
-                                                    </div>
-                                                    <div className="mu-filter-item-content">
-                                                        <h4 className="mu-filter-item-title">MARKETING</h4>
-                                                        <a className="mu-filter-link" href="#"><i className="fa fa-link"></i></a>
-                                                        <a className="mu-filter-imglink" href="assets/images/portfolio/img-6.jpeg" title="MARKETING"><i className="fa fa-search"></i></a>
                                                     </div>
                                                 </div>
 
