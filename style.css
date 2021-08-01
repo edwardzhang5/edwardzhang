@@ -442,6 +442,18 @@ button:focus {
 	margin-bottom: 15px;
 	position: relative;
 }
+.mu-heading-project {
+	color: #1c1b1b;
+	margin-bottom: 10px;
+	position: relative;
+	text-align: left;
+}
+
+.mu-about-project{
+	color: #1c1b1b;
+	text-align:left;
+	padding: 20px 0;
+}
 
 .mu-about-content {
 	background-color: #fff;
@@ -642,6 +654,13 @@ button:focus {
 	display: inline;
 	float: left;
 	padding: 100px 0;
+	width: 100%;
+}
+
+.mu-project-area {
+	display: inline;
+	float: left;
+	padding: 40px 0;
 	width: 100%;
 }
 
