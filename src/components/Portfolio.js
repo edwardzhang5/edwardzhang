@@ -35,7 +35,7 @@ const Portfolio = () => (
                                                         <img className="img-responsive" src="assets/images/portfolio/img-2.jpeg" alt="image" />
                                                     </div>
                                                     <div className="mu-filter-item-content">
-                                                        <h4 className="mu-filter-item-title">UI/UX DESIGN</h4>
+                                                        <h4 className="mu-filter-item-title">Coming soon</h4>
                                                         <a className="mu-filter-link" href="#"><i className="fa fa-link"></i></a>
                                                         <a className="mu-filter-imglink" href="assets/images/portfolio/img-2.jpeg" title="UI/UX DESIGN"><i className="fa fa-search"></i></a>
                                                     </div>
@@ -46,7 +46,7 @@ const Portfolio = () => (
                                                         <img className="img-responsive" src="assets/images/portfolio/img-3.jpeg" alt="image" />
                                                     </div>
                                                     <div className="mu-filter-item-content">
-                                                        <h4 className="mu-filter-item-title">GRAPHICS DESIGN</h4>
+                                                        <h4 className="mu-filter-item-title">Coming soon</h4>
                                                         <a className="mu-filter-link" href="#"><i className="fa fa-link"></i></a>
                                                         <a className="mu-filter-imglink" href="assets/images/portfolio/img-3.jpeg" title="GRAPHICS DESIGN"><i className="fa fa-search"></i></a>
                                                     </div>
