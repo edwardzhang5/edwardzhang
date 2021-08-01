@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './components/home';
+import Home from './components/Home';
 import Gatorloop from './components/assets/projects/GG';
 import './App.css';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
