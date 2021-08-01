@@ -25,21 +25,21 @@ class Gatorloop extends React.Component{
                                                 <h4 className="mu-heading-project">Login and Register Pages</h4>
                                                 <div className="col-xs-12 col-sm-12 col-md-12 filtr-item" data-category="1">
                                                     <div className="mu-item-thumbonail">
-                                                        <img className="img-responsive" src="assets/images/portfolio/GG1.gif" alt="image" />
+                                                        <img className="img-responsive" src="assets/images/portfolio/GG1.gif" alt="Login/Register" />
                                                     </div>
                                                     
                                                 </div>
                                                 <h4 className="mu-heading-project">Dashboard and Inventory Pages</h4>
-                                                <div className="col-xs-12 col-sm-12 col-md-12 filtr-item" data-category="1">
+                                                <div className="col-xs-12 col-sm-12 col-md-12 filtr-item" data-category="2">
                                                     <div className="mu-item-thumbonail">
-                                                        <img className="img-responsive" src="assets/images/portfolio/GG2.gif" alt="image" />
+                                                        <img className="img-responsive" src="assets/images/portfolio/GG2.gif" alt="Dashboard/Inventory" />
                                                     </div>
                                                     
                                                 </div>
                                                 <h4 className="mu-heading-project">Purchase Order Form and Dashboard</h4>
-                                                <div className="col-xs-12 col-sm-12 col-md-12 filtr-item" data-category="1">
+                                                <div className="col-xs-12 col-sm-12 col-md-12 filtr-item" data-category="3">
                                                     <div className="mu-item-thumbonail">
-                                                        <img className="img-responsive" src="assets/images/portfolio/GG3.gif" alt="image" />
+                                                        <img className="img-responsive" src="assets/images/portfolio/GG3.gif" alt="PO Form/Dashboard" />
                                                     </div>
                                                     
                                                 </div>                                               
