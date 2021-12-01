@@ -5,7 +5,6 @@ Here, I'll put my personal projects and my class projects.
 Cool links to stuff coming soon!
 
 ## Installation
-
 This React app is hosted entirely on Github pages!
 
 ## Issues
