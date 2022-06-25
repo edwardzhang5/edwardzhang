@@ -59,7 +59,7 @@ const Portfolio = () => (
                   </h3>
                   <a
                     className='mu-filter-link'
-                    href='https://edwardzhang5.github.io/the5letterwordgame/'
+                    href='https://5letterwordgame.com/'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
