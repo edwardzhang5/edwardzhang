@@ -59,7 +59,7 @@ const Portfolio = () => (
                   </h3>
                   <a
                     className='mu-filter-link'
-                    href='https://5letterwordgame.com/'
+                    href='https://edwardzhang5.github.io/the5letterwordgame/'
                     target='_blank'
                     rel='noopener noreferrer'
                   >
@@ -77,29 +77,38 @@ const Portfolio = () => (
 
               <div
                 className='col-xs-12 col-sm-4 col-md-6 filtr-item'
-                data-category='3'
+                data-category='2'
               >
                 <div className='mu-item-thumbonail'>
                   <img
                     className='img-responsive'
-                    src='assets/images/portfolio/img-3.jpeg'
+                    src='assets/images/portfolio/investigators.png'
                     alt='image'
                   />
                 </div>
                 <div className='mu-filter-item-content'>
-                  <h4 className='mu-filter-item-title'>Coming soon</h4>
-                  <a className='mu-filter-link' href='#'>
+                  <h3 className='mu-filter-item-title'>
+                    InvestiGator
+                  </h3>
+                  <a
+                    className='mu-filter-link'
+                    href='https://www.ippd.ufl.edu/blogs/ay2223team09/blog-posts/'
+                    target='_blank'
+                    rel='noopener noreferrer'
+                  >
                     <i className='fa fa-link'></i>
                   </a>
                   <a
                     className='mu-filter-imglink'
-                    href='assets/images/portfolio/img-3.jpeg'
-                    title='GRAPHICS DESIGN'
+                    href='assets/images/portfolio/investigators.png'
+                    title='Senior Design Project'
                   >
                     <i className='fa fa-search'></i>
                   </a>
                 </div>
               </div>
+
+              
             </div>
           </div>
           {/*  End Portfolio Content */}
